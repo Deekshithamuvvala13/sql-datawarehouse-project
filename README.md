@@ -34,4 +34,4 @@ These insights empower stakeholder with key business metrics, enabling strategic
 this project is licensed under the [MIT License](LICENSE). You are free to use, modify and share this project with proper attribution.
 
 ## About me
-Hi there! I'm Deekshitha . I am working as developer in Defence on a mission to share knowledge enjoyable and engaging!
+Hi there! I'm Deekshitha . I am working as developer in Defence on a mission to share knowledge and make working with data enjoyable and engaging!
