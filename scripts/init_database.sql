@@ -19,4 +19,24 @@ GO
 --Drop and recreated the 'DataWareHouse' database
 if exists(select 1 from sys.databases where name = 'DataWareHouse')
 Begin
-  alter datavbase datawarehouse set single user with rollback immediate;
+  alter database DataWareHouse set single user with rollback immediate;
+  drop database DataWareHouse;
+end;
+go
+
+-- create the 'DataWareHouse' database
+create database DataWareHouse;
+go
+
+use DataWareHouse;
+go
+
+-- create schemas
+create schema bronze;
+go
+    
+create schema sliver;
+go
+
+create schema gold;
+go
